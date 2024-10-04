@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big "MISS U" Message</title>
+    <style>
+        /* Body styles to center the message */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f2f2f2; /* Light background */
+            font-family: 'Arial', sans-serif; /* Font family */
+        }
+
+        /* The big "MISS U" text */
+        .message {
+            font-size: 8rem; /* Huge font size */
+            font-weight: bold; /* Bold text */
+            color: #e60000; /* Red color for the text */
+            text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Adds shadow to the text */
+            letter-spacing: 5px; /* Adds space between letters */
+            text-align: center; /* Centers the text */
+            transition: transform 0.3s ease, color 0.3s ease; /* Smooth animation */
+        }
+
+        /* Hover effect to scale and change color */
+        .message:hover {
+            transform: scale(1.1); /* Slightly enlarge the text */
+            color: #ff3300; /* Change color on hover */
+        }
+
+        /* Optional: Add a little animation when the page loads */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .message {
+            animation: fadeIn 1s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">MISS U</div>
+</body>
+</h
